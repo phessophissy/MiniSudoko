@@ -1,0 +1,18 @@
+﻿{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgxMjM0NTY3ODkwYWJjZGVmIn0",
+    "payload": "eyJkb21haW4iOiJtaW5pc3Vkb2t1LWZpdmUudmVyY2VsLmFwcCJ9",
+    "signature": "MHg..."
+  },
+  "frame": {
+    "version": "1",
+    "name": "MiniSudoku",
+    "iconUrl": "https://minisudoku-five.vercel.app/logo.png",
+    "homeUrl": "https://minisudoku-five.vercel.app",
+    "imageUrl": "https://minisudoku-five.vercel.app/api/og",
+    "buttonTitle": "Play MiniSudoku",
+    "splashImageUrl": "https://minisudoku-five.vercel.app/api/og",
+    "splashBackgroundColor": "#022c22",
+    "webhookUrl": "https://minisudoku-five.vercel.app/api/frame"
+  }
+}
