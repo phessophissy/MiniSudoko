@@ -6,7 +6,6 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const { untrustedData } = body;
-    const fid = untrustedData?.fid;
 
     // In production, verify the frame message signature
     // For now, we'll proceed with the payment flow
