@@ -1,4 +1,4 @@
-import { createPublicClient, createWalletClient, http, parseUnits } from 'viem';
+﻿import { createPublicClient, http, parseUnits } from 'viem';
 import { base } from 'viem/chains';
 
 export const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_MINISUDOKU_CONTRACT as `0x${string}`;
