@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+﻿// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
@@ -35,7 +35,7 @@ contract MiniSudoku is Ownable, ReentrancyGuard {
     event RoundEnded(uint256 indexed roundId, address winner, uint256 prize);
     event PaymentReceived(address indexed player, uint256 amount);
     
-    constructor(address _usdc) {
+    constructor(address _usdc) Ownable(msg.sender) {
         usdc = IERC20(_usdc);
         _startNewRound();
     }
