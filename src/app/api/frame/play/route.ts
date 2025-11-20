@@ -4,7 +4,6 @@ const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://your-app.vercel.app'
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
 
     // In production, verify the frame message signature
     // For now, we'll proceed with the payment flow
