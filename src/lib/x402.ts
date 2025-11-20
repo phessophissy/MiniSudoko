@@ -103,9 +103,7 @@ export async function processX402Payment(
 /**
  * Verify x402 payment completion
  */
-export async function verifyPayment(
-  transactionHash: string,
-  expectedAmount: string
+export async function verifyPayment(_transactionHash: string,_expectedAmount: string
 ): Promise<boolean> {
   // In production, verify the transaction on-chain
   // Check that it matches the expected parameters
