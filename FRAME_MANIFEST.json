@@ -2,27 +2,27 @@
   "name": "MiniSudoku",
   "short_description": "Play Sudoku, Win USDC",
   "description": "Competitive Sudoku game on Base chain. Pay $0.30 USDC to play, compete for the 24-hour prize pool. Powered by x402 Farcaster payments.",
-  "url": "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app",
+  "url": "https://minisudoku-five.vercel.app",
   "icons": [
-    "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app/logo.png",
-    "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app/logo.svg",
-    "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app/favicon.ico",
-    "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app/logo192.png"
+    "https://minisudoku-five.vercel.app/logo.png",
+    "https://minisudoku-five.vercel.app/logo.svg",
+    "https://minisudoku-five.vercel.app/favicon.ico",
+    "https://minisudoku-five.vercel.app/logo192.png"
   ],
   "author": {
     "name": "MiniSudoku",
-    "url": "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app"
+    "url": "https://minisudoku-five.vercel.app"
   },
   "frame": {
     "version": "next",
-    "imageUrl": "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app/api/og",
+    "imageUrl": "https://minisudoku-five.vercel.app/api/og",
     "button": {
       "title": "Play MiniSudoku",
       "action": {
         "type": "launch_frame",
         "name": "MiniSudoku",
-        "url": "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app/api/frame",
-        "splashImageUrl": "https://minisudoku-cujnodv3w-phessophissys-projects.vercel.app/api/og",
+        "url": "https://minisudoku-five.vercel.app/api/frame",
+        "splashImageUrl": "https://minisudoku-five.vercel.app/api/og",
         "splashBackgroundColor": "#022c22"
       }
     }
@@ -35,4 +35,5 @@
     }
   }
 }
+
 
