@@ -1,4 +1,4 @@
-/**
+﻿/**
  * x402 Payment Integration for Farcaster Frames
  * 
  * x402 is Farcaster's native payment protocol for frames
@@ -25,9 +25,7 @@ export interface X402PaymentResponse {
 /**
  * Create an x402 payment request for USDC approval
  */
-export function createApprovalRequest(
-  spender: string,
-  amount: string
+export function createApprovalRequest(_spender: string,_amount: string
 ): X402PaymentRequest {
   const USDC_ADDRESS = '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913'; // Base mainnet
 
@@ -57,9 +55,7 @@ export function createApprovalRequest(
 /**
  * Create an x402 payment request for playing the game
  */
-export function createPlayGameRequest(
-  contractAddress: string,
-  wins: number
+export function createPlayGameRequest(_contractAddress: string,_wins: number
 ): X402PaymentRequest {
   return {
     chainId: 'eip155:8453',
