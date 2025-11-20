@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
-import './styles.css'
+﻿import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'NFT Drop Signal',
-  description: 'Get real-time signals for NFT drops on Farcaster',
+  title: 'MiniSudoku - Play and Win USDC',
+  description: 'Competitive Sudoku game on Base chain. Play for $0.30 USDC, win prizes!',
 }
 
 export default function RootLayout({
@@ -13,9 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-br from-choco-900 via-choco-700 to-choco-800 text-white">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
