@@ -2,7 +2,7 @@
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://your-app.vercel.app';
 
-export async function POST(req: NextRequest) {
+export async function POST(_req: NextRequest) {
   try {
 
     // In production, verify the frame message signature
