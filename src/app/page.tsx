@@ -180,13 +180,11 @@ export default function Home() {
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 metallic-text">
             ðŸŽ® MiniSudoku
-          </h1>
-          <p className="text-green-300 text-lg md:text-xl">
-            Play Sudoku â€¢ Win USDC â€¢ Compete for the Prize Pool
-          </p>
-        </div>
-
-        {/* Wallet Connection */}
+            </h1>
+            <p className="text-green-300 text-lg md:text-xl">
+              Play Sudoku • Win USDC • Compete for the Prize Pool
+            </p>
+          </div>        {/* Wallet Connection */}
         {!walletAddress && (
           <div className="max-w-md mx-auto mb-8">
             <button
