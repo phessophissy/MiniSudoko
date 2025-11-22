@@ -162,6 +162,17 @@ export default function Home() {
     setWalletAddress(mockAddress);
   };
 
+  if (!isSDKLoaded) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-2xl text-green-400 mb-4">Loading MiniSudoku...</div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-400 mx-auto"></div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <main className="min-h-screen p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
