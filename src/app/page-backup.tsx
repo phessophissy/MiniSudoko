@@ -1,7 +1,6 @@
 ﻿'use client';
 
 import { useState, useEffect } from 'react';
-import sdk from '@farcaster/frame-sdk';
 import SudokuBoard from '@/components/SudokuBoard';
 import PoolStats from '@/components/PoolStats';
 import Leaderboard from '@/components/Leaderboard';
@@ -20,23 +19,6 @@ export default function Home() {
   const [walletAddress, setWalletAddress] = useState<string>('');
   const [showPayment, setShowPayment] = useState(false);
   const [gameCompleted, setGameCompleted] = useState(false);
-
-  const [isSDKLoaded, setIsSDKLoaded] = useState(false);
-
-  // Initialize Farcaster SDK
-  useEffect(() => {
-    const load = async () => {
-      try {
-        const context = await sdk.context;
-        console.log('Farcaster context:', context);
-        sdk.actions.ready();
-        setIsSDKLoaded(true);
-      } catch (error) {
-        console.error('Error loading Farcaster SDK:', error);
-      }
-    };
-    load();
-  }, []);
 
   useEffect(() => {
     fetchPoolInfo();
@@ -331,3 +313,4 @@ export default function Home() {
     </main>
   );
 }
+
