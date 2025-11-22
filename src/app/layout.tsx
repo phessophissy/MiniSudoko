@@ -15,9 +15,16 @@ export const metadata: Metadata = {
   other: {
     'fc:frame': 'vNext',
     'fc:frame:image': `${APP_URL}/api/og`,
-    'fc:frame:button:1': 'Play Game',
-    'fc:frame:button:1:action': 'link',
-    'fc:frame:button:1:target': APP_URL,
+    'fc:frame:image:aspect_ratio': '1:1',
+    'fc:frame:button:1': 'Play MiniSudoku',
+    'fc:frame:button:1:action': 'launch_frame',
+    'fc:frame:button:1:target': `${APP_URL}/api/frame`,
+    'of:version': 'vNext',
+    'of:accepts:xmtp': '2024-02-01',
+    'of:image': `${APP_URL}/api/og`,
+    'of:button:1': 'Play MiniSudoku',
+    'of:button:1:action': 'launch_frame',
+    'of:button:1:target': `${APP_URL}/api/frame`,
   },
 }
 
