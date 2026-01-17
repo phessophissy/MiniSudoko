@@ -1,6 +1,4 @@
-import { SudokuGrid } from '../lib/sudoku';
-
-export type Difficulty = 'easy' | 'medium' | 'hard';
+import { SudokuGrid, Difficulty } from '../lib/sudoku';
 
 export interface GameSession {
   id: string;
