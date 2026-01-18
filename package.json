@@ -1,6 +1,8 @@
 {
   "name": "minisudoku-game",
   "version": "1.0.0",
+  "description": "A competitive Sudoku game on Base chain as a Farcaster miniApp",
+  "author": "Adekunle Bamz",
   "private": true,
   "scripts": {
     "dev": "next dev",
