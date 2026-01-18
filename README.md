@@ -46,4 +46,48 @@ MIT License
 
 ---
 
+## 🤝 Contributing
+
+We welcome contributions to the MiniSudoku game! Here's how you can help:
+
+### Ways to Contribute
+- **Game Features**: Add new Sudoku puzzles, difficulty levels, or gameplay modes
+- **UI/UX Improvements**: Enhance the user interface, animations, or user experience
+- **Smart Contract**: Improve gas optimization, add new features, or enhance security
+- **Testing**: Add more comprehensive tests for contracts and frontend
+- **Documentation**: Improve README, add tutorials, or create usage guides
+- **Performance**: Optimize frontend performance or contract gas usage
+
+### Development Workflow
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and ensure tests pass
+4. Run the test suite: `npm run compile && npm test`
+5. Submit a pull request with a clear description
+
+### Code Standards
+- Follow existing code patterns and TypeScript/Solidity best practices
+- Add tests for new functionality
+- Update documentation for significant changes
+- Ensure backward compatibility where possible
+
+### Smart Contract Guidelines
+- Use OpenZeppelin contracts for security
+- Add comprehensive test coverage
+- Optimize for gas efficiency
+- Include proper error handling
+
+### Frontend Guidelines
+- Use TypeScript for type safety
+- Follow React best practices
+- Ensure mobile responsiveness
+- Test on multiple wallet connections
+
+### Testing
+- All smart contract functions should have unit tests
+- Frontend should have integration tests
+- Test on both testnet and mainnet
+
+---
+
 Built with ❤️ for the Farcaster community
