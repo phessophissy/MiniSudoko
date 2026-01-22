@@ -12,7 +12,7 @@ Get your MiniSudoku game running in 5 minutes!
 
 ```bash
 # Navigate to project
-cd C:\Users\HomePC\nft-drop-signal
+cd minisudoku-game
 
 # Create environment file
 copy .env.local.example .env.local
